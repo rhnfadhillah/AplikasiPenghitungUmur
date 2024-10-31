@@ -1,4 +1,3 @@
-![Screenshot 2024-10-31 140502](https://github.com/user-attachments/assets/36fe6f1e-aae6-4dd1-b19e-191933e030c5)
 # Aplikasi Penghitung Umur    
 
 Sebuah aplikasi untuk menghitung umur pengguna secara akurat dengan menampilkan umur, bulan dan hari. Menampilkan kapan ulang tahun pengguna selanjutnya, serta menampilkan peristiwa peristiwa penting dalam sejarah pada tanggal ulang tahun pengguna yang di translate ke dalam Bahasa Indonesia.
@@ -232,8 +231,7 @@ public String getDayOfWeekInIndonesian (LocalDate date){
 ```
 
 ## Screenshots
-
-![Uploading Screenshot 2024-10-31 140502.png…]()
+![Screenshot 2024-10-31 140502](https://github.com/user-attachments/assets/36fe6f1e-aae6-4dd1-b19e-191933e030c5)
 
 ## Pembuat
 
