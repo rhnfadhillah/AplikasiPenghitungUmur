@@ -1,6 +1,6 @@
+ ![b82aa7ac3f736dd78570dd3fa3fa9e24-java-programming-language-icon](https://github.com/user-attachments/assets/1425ea7f-f748-47f6-9d52-c27765cdbf0e)
 
-#   Aplikasi Penghitung Umur ![b82aa7ac3f736dd78570dd3fa3fa9e24-java-programming-language-icon](https://github.com/user-attachments/assets/1425ea7f-f748-47f6-9d52-c27765cdbf0e)
-
+#   Aplikasi Penghitung Umur
 
 Sebuah aplikasi untuk menghitung umur pengguna secara akurat dengan menampilkan umur, bulan dan hari. Menampilkan kapan ulang tahun pengguna selanjutnya, serta menampilkan peristiwa peristiwa penting dalam sejarah pada tanggal ulang tahun pengguna yang di translate ke dalam Bahasa Indonesia.
 
