@@ -13,7 +13,7 @@ Latihan 2 - Muhammad Raihan Fadhillah (2210010404)
 ## Deskripsi
 Sebuah aplikasi untuk menghitung umur pengguna secara akurat dengan menampilkan umur, bulan dan hari. Menampilkan kapan ulang tahun pengguna selanjutnya, serta menampilkan peristiwa peristiwa penting dalam sejarah pada tanggal ulang tahun pengguna yang di translate ke dalam Bahasa Indonesia.
 
-Menggunakan bahasa pemrograman java dengan berbasis JFrameForm dan menggunakan library json (https://github.com/stleary/JSON-java?tab=readme-ov-file) yang melakukan fetching terhadap url (https://byabbe.se/on-this-day/).
+Menggunakan bahasa pemrograman java dengan berbasis JFrameForm dan menggunakan library JSON in Java (https://github.com/stleary/JSON-java?tab=readme-ov-file) yang melakukan fetching terhadap url (https://byabbe.se/on-this-day/).
 
 
 ## Fitur
