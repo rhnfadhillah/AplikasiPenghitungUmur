@@ -31,11 +31,11 @@ public class PenghitungUmurForm extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        txt_umur = new javax.swing.JTextField();
-        txt_berikutnya = new javax.swing.JTextField();
-        date_tglLahir = new com.toedter.calendar.JDateChooser();
-        btn_hitung = new javax.swing.JButton();
-        btn_keluar = new javax.swing.JButton();
+        txtUmur = new javax.swing.JTextField();
+        txtHariUlangTahunBerikutnya = new javax.swing.JTextField();
+        dateChooserTanggalLahir = new com.toedter.calendar.JDateChooser();
+        btnHitung = new javax.swing.JButton();
+        btnKeluar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -75,7 +75,7 @@ public class PenghitungUmurForm extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 665;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 46, 0, 18);
-        jPanel1.add(txt_umur, gridBagConstraints);
+        jPanel1.add(txtUmur, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 4;
@@ -84,7 +84,9 @@ public class PenghitungUmurForm extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 665;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 46, 128, 18);
-        jPanel1.add(txt_berikutnya, gridBagConstraints);
+        jPanel1.add(txtHariUlangTahunBerikutnya, gridBagConstraints);
+
+        dateChooserTanggalLahir.setDateFormatString("dd-MM-yyyy");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
@@ -92,25 +94,25 @@ public class PenghitungUmurForm extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 310;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(70, 46, 0, 0);
-        jPanel1.add(date_tglLahir, gridBagConstraints);
+        jPanel1.add(dateChooserTanggalLahir, gridBagConstraints);
 
-        btn_hitung.setText("Hitung Umur");
+        btnHitung.setText("Hitung Umur");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(67, 43, 0, 0);
-        jPanel1.add(btn_hitung, gridBagConstraints);
+        jPanel1.add(btnHitung, gridBagConstraints);
 
-        btn_keluar.setText("Keluar");
+        btnKeluar.setText("Keluar");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(67, 18, 0, 0);
-        jPanel1.add(btn_keluar, gridBagConstraints);
+        jPanel1.add(btnKeluar, gridBagConstraints);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -163,14 +165,14 @@ public class PenghitungUmurForm extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_hitung;
-    private javax.swing.JButton btn_keluar;
-    private com.toedter.calendar.JDateChooser date_tglLahir;
+    private javax.swing.JButton btnHitung;
+    private javax.swing.JButton btnKeluar;
+    private com.toedter.calendar.JDateChooser dateChooserTanggalLahir;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField txt_berikutnya;
-    private javax.swing.JTextField txt_umur;
+    private javax.swing.JTextField txtHariUlangTahunBerikutnya;
+    private javax.swing.JTextField txtUmur;
     // End of variables declaration//GEN-END:variables
 }

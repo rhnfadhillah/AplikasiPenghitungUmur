@@ -76,28 +76,31 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JTextField" name="txt_umur">
+        <Component class="javax.swing.JTextField" name="txtUmur">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
               <GridBagConstraints gridX="3" gridY="2" gridWidth="4" gridHeight="2" fill="0" ipadX="665" ipadY="0" insetsTop="18" insetsLeft="46" insetsBottom="0" insetsRight="18" anchor="18" weightX="0.0" weightY="0.0"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JTextField" name="txt_berikutnya">
+        <Component class="javax.swing.JTextField" name="txtHariUlangTahunBerikutnya">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
               <GridBagConstraints gridX="3" gridY="4" gridWidth="4" gridHeight="2" fill="0" ipadX="665" ipadY="0" insetsTop="18" insetsLeft="46" insetsBottom="128" insetsRight="18" anchor="18" weightX="0.0" weightY="0.0"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="com.toedter.calendar.JDateChooser" name="date_tglLahir">
+        <Component class="com.toedter.calendar.JDateChooser" name="dateChooserTanggalLahir">
+          <Properties>
+            <Property name="dateFormatString" type="java.lang.String" value="dd-MM-yyyy"/>
+          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
               <GridBagConstraints gridX="3" gridY="0" gridWidth="1" gridHeight="2" fill="0" ipadX="310" ipadY="0" insetsTop="70" insetsLeft="46" insetsBottom="0" insetsRight="0" anchor="18" weightX="0.0" weightY="0.0"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="btn_hitung">
+        <Component class="javax.swing.JButton" name="btnHitung">
           <Properties>
             <Property name="text" type="java.lang.String" value="Hitung Umur"/>
           </Properties>
@@ -107,7 +110,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="btn_keluar">
+        <Component class="javax.swing.JButton" name="btnKeluar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Keluar"/>
           </Properties>
